@@ -1,10 +1,10 @@
 ﻿@model rocky.Models.ViewModels.ProductVM
-@{ 
+@{
     var Title = "Create Product";
 }
 
 <form method="post" enctype="multipart/form-data">
-   
+
     @if (Model.Product.Id != 0)
     {
         Title = "Edit Product";
@@ -90,8 +90,10 @@
                 </div>
             </div>
             <div class="col-4">
-                @* Keep this empty *@
-                <img src="@WebConstants.ImagePath@Model.Product.Image" width="100%" style="border-radius:5px;border:1px"/>
+                @if (Model.Product.Id != 0)
+                {
+                    <img src="@WebConstants.ImagePath@Model.Product.Image" width="100%" style="border-radius:5px;border:1px" />
+                }
             </div>
         </div>
     </div>
@@ -105,7 +107,7 @@
     <script>
         $(document).ready(function () {
             $('.summernote').summernote({
-                height : 250
+                height: 250
             });
         });
 
