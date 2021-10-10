@@ -436,3 +436,5 @@ C:\Users\Ibrahim\source\repos\rocky\rocky\obj\Debug\net5.0\Razor\Views\Applicati
 C:\Users\Ibrahim\source\repos\rocky\rocky\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
 C:\Users\Ibrahim\source\repos\rocky\rocky\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\Ibrahim\source\repos\rocky\rocky\obj\Debug\net5.0\Razor\Views\Product\UpSert.cshtml.g.cs
+C:\Users\Ibrahim\source\repos\rocky\rocky\obj\Debug\net5.0\Razor\Views\Shared\_IndividualProductCard.cshtml.g.cs
+C:\Users\Ibrahim\source\repos\rocky\rocky\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
